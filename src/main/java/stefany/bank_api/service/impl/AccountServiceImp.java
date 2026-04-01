@@ -9,7 +9,7 @@ import stefany.bank_api.service.AccountService;
 public class AccountServiceImp implements AccountService {
     private AccountRepository accountRepository;
 
-    
+
     public AccountServiceImp(AccountRepository accountRepository) {
         this.accountRepository = accountRepository;
     }
